@@ -1,11 +1,5 @@
 body{
     background-color: #c0c0c0;
+    width:100%;
 }
 
-
-#dupa{
-    height: 100px;
-    width:100px;
-    background-color: red;
-    text-align: right;
-}
