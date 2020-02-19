@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="/resources/style.css"/>
 </head>
 <body>
-witaj
+
+<div id="dupa">Witaj</div>
+
+
+
 </body>
 </html>
