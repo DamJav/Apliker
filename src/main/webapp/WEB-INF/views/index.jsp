@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Strona główna</title>
+    <link rel="stylesheet" href="/../../.."
 </head>
 <body>
 witaj
