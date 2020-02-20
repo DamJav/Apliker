@@ -17,7 +17,15 @@
 
 <form:form action="/add" modelAttribute="advertisement">
 
-    <form:input path="company" />
+    <form:label path="company">Nazwa firmy</form:label>
+    <form:input path="company"/><br/>
+    <form:label path="title">Tytuł ogłoszenia</form:label>
+    <form:input path="title"/><br/>
+    <form:label path="city">Miasto</form:label>
+    <form:input path="city"/><br/>
+    <button type="reset" >Wyczyść</button>
+    <button type="submit">Dodaj</button>
+
 
 
 </form:form>
