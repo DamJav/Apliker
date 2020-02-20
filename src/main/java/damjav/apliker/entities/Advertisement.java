@@ -24,11 +24,11 @@ public class Advertisement {
     @Column(nullable = false)
     private String company;
     @Column(nullable = false)
-    private LocalDateTime sent;
+    private LocalDateTime sent = LocalDateTime.now();
     @Column(nullable = false)
-    private LocalDateTime city;
+    private String city;
     @Column(nullable = false)
-    private String answer;
+    private String answer = "no";
 
 
 
