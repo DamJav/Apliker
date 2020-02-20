@@ -23,4 +23,6 @@ public class Advertisement {
     @Column(nullable = false)
     private String answer;
 
+
+
 }

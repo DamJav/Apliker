@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: Damian
@@ -14,7 +15,12 @@
 </head>
 <body>
 
+<form:form action="/add" modelAttribute="advertisement">
 
+    <form:input path="company" />
+
+
+</form:form>
 
 
 
