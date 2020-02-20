@@ -25,9 +25,6 @@
     <form:input path="city"/><br/>
     <button type="reset" >Wyczyść</button>
     <button type="submit">Dodaj</button>
-
-
-
 </form:form>
 
 
