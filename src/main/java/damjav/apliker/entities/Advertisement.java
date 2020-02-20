@@ -6,18 +6,21 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "advertisements")
 public class Advertisement {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private String Title;
+    private String title;
     @Column(nullable = false)
-    private String Company;
+    private String company;
     @Column(nullable = false)
-    private LocalDateTime reported;
+    private LocalDateTime sent;
     @Column(nullable = false)
-    private String status;
-   
+    private LocalDateTime city;
+    @Column(nullable = false)
+    private String answer;
+
 }
