@@ -15,8 +15,9 @@
 </head>
 <body>
 
-<form:form action="/add" modelAttribute="advertisement">
 
+<div id="form">
+<form:form action="/add" modelAttribute="advertisement">
     <form:label path="company">Nazwa firmy</form:label>
     <form:input path="company"/><br/>
     <form:label path="title">Tytuł ogłoszenia</form:label>
@@ -26,7 +27,7 @@
     <button type="reset" >Wyczyść</button>
     <button type="submit">Dodaj</button>
 </form:form>
-
+</div>
 
 
 </body>
