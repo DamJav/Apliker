@@ -26,7 +26,7 @@
     <for:forEach items="${ads}" var="ad" varStatus="i">
         <table>
             <tr>
-                <td>${ad.company}</td>
+                <td><b>${ad.company}</b></td>
                 <td>${ad.title}</td>
                 <td>${ad.city}</td>
                 <td>${ad.answer}</td>
