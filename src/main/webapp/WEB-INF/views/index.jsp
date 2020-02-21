@@ -18,10 +18,10 @@
 
 <div id="form">
 <form:form action="/add" modelAttribute="advertisement">
-    <form:label path="company">Nazwa firmy</form:label>
-    <form:input path="company"/><br/>
     <form:label path="title">Tytuł ogłoszenia</form:label>
     <form:input path="title"/><br/>
+    <form:label path="company">Nazwa firmy</form:label>
+    <form:input path="company"/><br/>
     <form:label path="city">Miasto</form:label>
     <form:input path="city"/><br/>
     <button type="reset" >Wyczyść</button>
