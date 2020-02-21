@@ -23,9 +23,10 @@
         <input type="submit" value="Sprawdź"/>
     </form>
     <for:forEach items="${ads}" var="ad" varStatus="i">
+        <table>
         <tr>
-            <td> Firma:  <br/>
-            <td>  Tytuł:  <br/>
+            <td> Firma:  </td>
+            <td>  Tytuł: </td>
             <td> Miasto: </td>
             <td> Odpowiedź:</td>
             <td> Data:</td>
@@ -37,7 +38,7 @@
             <td>${ad.answer}</td>
             <td>${ad.sent}</td>
         </tr>
-        <br/>
+        </table>
     </for:forEach>
 </div>
 
