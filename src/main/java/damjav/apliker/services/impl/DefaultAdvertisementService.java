@@ -23,10 +23,6 @@ public class DefaultAdvertisementService implements AdvertisementService {
         advertisementRepository.save(advertisement);
     }
 
-    @Override
-    public void searchAdvertisement(String companyName) {
-        advertisementRepository.findAdvertisementByCompany(companyName);
-    }
 
 
 }
