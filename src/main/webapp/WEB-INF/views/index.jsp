@@ -22,11 +22,25 @@
         <input type="text" name="companyName"/><br/>
         <input type="submit" value="Sprawdź"/>
     </form>
+    <for:forEach items="${ads}" var="ad" varStatus="i">
+        <tr>
+            <td> Firma:  <br/>
+            <td>  Tytuł:  <br/>
+            <td> Miasto: </td>
+            <td> Odpowiedź:</td>
+            <td> Data:</td>
+        </tr>
+        <tr>
+            <td>${ad.company}</td>
+            <td>${ad.title}</td>
+            <td>${ad.city}</td>
+            <td>${ad.answer}</td>
+            <td>${ad.sent}</td>
+        </tr>
+        <br/>
+    </for:forEach>
 </div>
-<for:forEach items="ads" var="ad" varStatus="i">
-    ${ad.company}
-    ${ad.title}
-</for:forEach>
+
 
 
 <div id="form">
