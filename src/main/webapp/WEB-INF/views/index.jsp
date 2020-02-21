@@ -14,7 +14,13 @@
     <link rel="stylesheet" href="/resources/style.css"/>
 </head>
 <body>
-
+<div id="search">
+    <form action="/search" method="post">
+        <label>Podaj nazwę firmy:</label> <br/>
+        <input type="text" name="companyName"/><br/>
+        <input type="submit" value="Sprawdź"/>
+    </form>
+</div>
 
 <div id="form">
 <form:form action="/add" modelAttribute="advertisement">
@@ -29,13 +35,7 @@
 </form:form>
 </div>
 
-<div id="search">
-    <form action="/search" method="post">
-        <label>Podaj nazwę firmy:</label> <br/>
-        <input type="text" name="companyName"/><br/>
-        <input type="submit" value="Sprawdź"/>
-    </form>
-</div>
+
 
 
 

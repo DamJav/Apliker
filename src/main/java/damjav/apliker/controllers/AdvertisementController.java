@@ -24,5 +24,10 @@ public class AdvertisementController {
         return "redirect:/";
     }
 
+    @PostMapping("/search")
+    public String searchAplication(){
+
+    }
+
 
 }
