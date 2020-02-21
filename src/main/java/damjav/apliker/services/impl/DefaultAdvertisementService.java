@@ -20,6 +20,7 @@ public class DefaultAdvertisementService implements AdvertisementService {
 
     @Override
     public void addAdvertisement(Advertisement advertisement) {
+
         advertisementRepository.save(advertisement);
     }
 

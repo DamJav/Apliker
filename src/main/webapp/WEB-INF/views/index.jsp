@@ -1,4 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="for" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: Damian
@@ -21,9 +23,12 @@
         <input type="submit" value="Sprawdź"/>
     </form>
 </div>
+<for:forEach items="ads" var="ad" varStatus="i">
+    ${ad.company}
+    ${ad.title}
+</for:forEach>
 
-${ad.company}
-${ad.title}
+
 <div id="form">
     <form:form action="/add" modelAttribute="advertisement">
         <form:label path="title">Tytuł ogłoszenia</form:label>
