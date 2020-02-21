@@ -13,3 +13,7 @@ body{
     margin-bottom: 20px;
 }
 
+table, td{
+    border: solid 2px black;
+}
+
