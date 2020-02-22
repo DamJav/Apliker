@@ -17,6 +17,7 @@
 </head>
 <body>
 <div id="search">
+    <h2>Wyszukaj swoją aplikację</h2>
     <form action="/search" method="post">
         <label>Podaj nazwę firmy:</label> <br/>
         <input type="text" name="companyName"/><br/>
