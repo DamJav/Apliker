@@ -4,7 +4,7 @@ body{
 }
 
 
-#form, #search{
+#form, #search, #all{
   width:50%;
     border: 3px solid black;
     text-align: center;
