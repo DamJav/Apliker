@@ -40,6 +40,7 @@
 
 
 <div id="form">
+    <h2>Dodaj aplikację</h2>
     <form:form action="/add" modelAttribute="advertisement">
         <form:label path="title">Tytuł ogłoszenia</form:label>
         <form:input path="title"/><br/>
