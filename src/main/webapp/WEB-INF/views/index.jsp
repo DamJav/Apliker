@@ -54,7 +54,7 @@
 </div>
 
 <div id="all">
-
+<h2>Historia</h2>
 </div>
 
 
