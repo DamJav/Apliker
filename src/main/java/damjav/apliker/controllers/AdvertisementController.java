@@ -30,7 +30,7 @@ public class AdvertisementController {
     }
 
     @PostMapping("/search")
-    public String searchAplication(String companyName, Model model,@Valid Advertisement advertisement){
+    public String searchApplication(String companyName, Model model,@Valid Advertisement advertisement){
         model.addAttribute("ads", advertisementRepository.findByCompanyStartingWith(companyName));
         return "index";
     }
