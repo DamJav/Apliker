@@ -4,10 +4,19 @@ body{
 }
 
 
-#form, #search, #all{
+#form, #search{
   width:50%;
     border: 3px solid black;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#all{
+    width:50%;
+    border: 3px solid black;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
