@@ -60,6 +60,17 @@
 
 <div id="all">
 <h2>Historia</h2>
+    <for:forEach items="${allAds}" var="ad" varStatus="i">
+        <table>
+            <tr>
+                <td><b>${ad.company}</b></td>
+                <td>${ad.title}</td>
+                <td>${ad.city}</td>
+                <td>${ad.answer}</td>
+                <td>${ad.sent}</td>
+            </tr>
+        </table>
+    </for:forEach>
 </div>
 
 <footer>
