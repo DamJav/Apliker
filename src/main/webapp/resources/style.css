@@ -1,6 +1,6 @@
 body{
     background-color: #c0c0c0;
-    width:100%;
+
 }
 
 
@@ -36,15 +36,12 @@ header{
     border: 3px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
+    float: left;
 }
 
 #allCount{
+    font-size: 66px;
     float: left;
-    text-align: left;
 }
 
-#answerCount{
-    float: left;
-    text-align: right;
-}
 

@@ -16,15 +16,7 @@
     <link rel="stylesheet" href="/resources/style.css"/>
 </head>
 <body>
-<header>
-<div id ="allCount">
-52
-</div>
-    <h2 id = "headerText">Apliker</h2>
-<div id="answerCount">
-0
-</div>
-</header>
+<div id="allCount">33</div>
 
 
 <div id="search">
