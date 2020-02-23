@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="/resources/style.css"/>
 </head>
 <body>
+<header>
+    
+</header>
+
+
 <div id="search">
     <h2>Wyszukaj swoją aplikację</h2>
     <form action="/search" method="post">
