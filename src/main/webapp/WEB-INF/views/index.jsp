@@ -17,7 +17,7 @@
 </head>
 <body>
 <header>
-    
+
 </header>
 
 
@@ -62,9 +62,8 @@
 <h2>Historia</h2>
 </div>
 
-
-
-
-
+<footer>
+    Aplikacja na użytek własny, wszelkie prawa zastrzeżone
+</footer>
 </body>
 </html>
