@@ -38,3 +38,13 @@ header{
     margin-bottom: 20px;
 }
 
+#allCount{
+    float: left;
+    text-align: left;
+}
+
+#answerCount{
+    float: left;
+    text-align: right;
+}
+

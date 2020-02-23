@@ -18,11 +18,11 @@
 <body>
 <header>
 <div id ="allCount">
-
+52
 </div>
     <h2 id = "headerText">Apliker</h2>
 <div id="answerCount">
-
+0
 </div>
 </header>
 
