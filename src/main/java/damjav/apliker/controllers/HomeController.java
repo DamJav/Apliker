@@ -21,6 +21,7 @@ public class HomeController {
     @GetMapping
     public String getHomePage(Model model){
             model.addAttribute("advertisement", new Advertisement());
+            model.addAttribute("allAds", advertisementService.findAllAdsByDate());
         return "index";
     }
 
