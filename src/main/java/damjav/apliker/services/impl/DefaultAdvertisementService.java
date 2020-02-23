@@ -29,5 +29,10 @@ public class DefaultAdvertisementService implements AdvertisementService {
         return advertisementRepository.findAllAdsByDate();
     }
 
+    @Override
+    public Integer showCountAllAds() {
+        return advertisementRepository.showCountAllAds();
+    }
+
 
 }

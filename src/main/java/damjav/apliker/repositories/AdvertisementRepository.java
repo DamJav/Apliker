@@ -18,6 +18,10 @@ public interface AdvertisementRepository extends JpaRepository<Advertisement, Lo
     @Query(value = "select * from advertisements order by sent desc", nativeQuery = true)
     List<Advertisement> findAllAdsByDate();
 
+    @Transactional
+    @Query(value = "SELECT count(*) from advertisements", nativeQuery = true)
+    Integer showCountAllAds();
+
 
 
 }

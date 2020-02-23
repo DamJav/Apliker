@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface AdvertisementService {
     void addAdvertisement(Advertisement advertisement);
-
     List<Advertisement> findAllAdsByDate();
+    Integer showCountAllAds();
 
 }

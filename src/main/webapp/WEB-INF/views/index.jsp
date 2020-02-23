@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/resources/style.css"/>
 </head>
 <body>
-<div id="allCount">33</div>
+<div id="allCount"><b>${countAds}</b></div>
 
 
 <div id="search">

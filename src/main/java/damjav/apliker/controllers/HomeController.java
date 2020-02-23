@@ -22,6 +22,7 @@ public class HomeController {
     public String getHomePage(Model model){
             model.addAttribute("advertisement", new Advertisement());
             model.addAttribute("allAds", advertisementService.findAllAdsByDate());
+            model.addAttribute("countAds", advertisementService.showCountAllAds());
         return "index";
     }
 
