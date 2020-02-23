@@ -4,19 +4,10 @@ body{
 }
 
 
-#form, #search{
+#form, #search, #all{
   width:50%;
     border: 3px solid black;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-
-#all{
-    width:50%;
-    border: 3px solid black;
-    text-align: left;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -27,9 +18,16 @@ td{
     padding: 2px 5px 2px 5px;
 }
 
+tr{
+    text-align: left;
+}
 table{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
 }
 
