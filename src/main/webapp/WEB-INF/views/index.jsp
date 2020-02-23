@@ -17,7 +17,13 @@
 </head>
 <body>
 <header>
+<div id ="allCount">
 
+</div>
+    
+<div id="answerCount">
+
+</div>
 </header>
 
 
