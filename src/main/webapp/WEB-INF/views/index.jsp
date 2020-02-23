@@ -20,7 +20,7 @@
 <div id ="allCount">
 
 </div>
-    
+    <h2 id = "headerText">Apliker</h2>
 <div id="answerCount">
 
 </div>
