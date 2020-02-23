@@ -7,6 +7,7 @@ import damjav.apliker.services.AdvertisementService;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Service
 @Transactional
@@ -20,10 +21,13 @@ public class DefaultAdvertisementService implements AdvertisementService {
 
     @Override
     public void addAdvertisement(Advertisement advertisement) {
-
         advertisementRepository.save(advertisement);
     }
 
+    @Override
+    public List<Advertisement> findAllAdsByDate() {
+        return advertisementRepository.findAllAdsByDate();
+    }
 
 
 }
