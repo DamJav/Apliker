@@ -32,7 +32,9 @@ public class AdvertisementController {
     @PostMapping("/search")
     public String searchApplication(String companyName, Model model,@Valid Advertisement advertisement){
         model.addAttribute("ads", advertisementRepository.findByCompanyStartingWith(companyName));
-        return "redirect:/";
+        model.addAttribute("allAds", advertisementService.findAllAdsByDate());
+        model.addAttribute("countAds", advertisementService.showCountAllAds());
+        return "index";
     }
 
 
