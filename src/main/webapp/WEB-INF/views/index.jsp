@@ -35,6 +35,7 @@
                 <td>${ad.city}</td>
                 <td>${ad.answer}</td>
                 <td>${ad.sent}</td>
+                <td><a href="/delete">Usuń</a></td>
             </tr>
         </table>
     </for:forEach>
