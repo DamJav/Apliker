@@ -39,9 +39,12 @@ public class AdvertisementController {
     }
 
     @GetMapping("/delete")
-    public String deleteAd(String id){
+    public String deleteAd(String id, Model model){
         advertisementService.deleteAdvertisement(Long.parseLong(id));
-        return "redirect:/search";
+        model.addAttribute("advertisement", new Advertisement());
+        model.addAttribute("allAds", advertisementService.findAllAdsByDate());
+        model.addAttribute("countAds", advertisementService.showCountAllAds());
+        return "index";
     }
 
 
