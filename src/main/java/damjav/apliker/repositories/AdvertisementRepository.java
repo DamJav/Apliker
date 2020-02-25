@@ -3,6 +3,7 @@ package damjav.apliker.repositories;
 
 import damjav.apliker.entities.Advertisement;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import javax.transaction.Transactional;
@@ -21,6 +22,9 @@ public interface AdvertisementRepository extends JpaRepository<Advertisement, Lo
     @Transactional
     @Query(value = "SELECT count(*) from advertisements", nativeQuery = true)
     Integer showCountAllAds();
+
+    void deleteAdvertisementById(Long id);
+    
 
 
 

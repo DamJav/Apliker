@@ -40,7 +40,7 @@ public class AdvertisementController {
 
     @GetMapping("/delete")
     public String deleteAd(@PathVariable String id){
-        return 
+        return "/";
     }
 
 

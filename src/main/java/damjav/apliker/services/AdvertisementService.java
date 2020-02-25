@@ -8,5 +8,6 @@ public interface AdvertisementService {
     void addAdvertisement(Advertisement advertisement);
     List<Advertisement> findAllAdsByDate();
     Integer showCountAllAds();
+    void deleteAdvertisement(Long id);
 
 }
