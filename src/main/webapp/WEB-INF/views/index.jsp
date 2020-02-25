@@ -17,7 +17,7 @@
 </head>
 <body>
 <div id="allCount"><b>${countAds}</b></div>
-
+<h1>HOME</h1>
 
 <div id="search">
     <h2>Wyszukaj swoją aplikację</h2>
