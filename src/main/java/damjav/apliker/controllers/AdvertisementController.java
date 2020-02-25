@@ -39,7 +39,8 @@ public class AdvertisementController {
     }
 
     @GetMapping("/delete")
-    public String deleteAd(@PathVariable String id){
+    public String deleteAd(@PathVariable Long id){
+        advertisementService.deleteAdvertisement(id);
         return "/";
     }
 
