@@ -24,7 +24,7 @@ public interface AdvertisementRepository extends JpaRepository<Advertisement, Lo
     Integer showCountAllAds();
 
     void deleteAdvertisementById(Long id);
-    
+
 
 
 

@@ -34,5 +34,10 @@ public class DefaultAdvertisementService implements AdvertisementService {
         return advertisementRepository.showCountAllAds();
     }
 
+    @Override
+    public void deleteAdvertisement(Long id) {
+        advertisementRepository.deleteAdvertisementById(id);
+    }
+
 
 }
