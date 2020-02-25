@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="/resources/style.css"/>
 </head>
 <body>
-<div id="allCount"><b>${countAds}</b></div>
-<div id = "home"><a href="/">HOME</a></div>
 
+<div id = "home"><a href="/">APLIKER</a></div>
+<div id="allCount"><b>${countAds}</b></div>
 <div id="search">
     <h2>Wyszukaj swoją aplikację</h2>
     <form action="/search" method="post">
