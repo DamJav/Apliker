@@ -41,7 +41,7 @@ public class AdvertisementController {
     @GetMapping("/delete")
     public String deleteAd(String id){
         advertisementService.deleteAdvertisement(Long.parseLong(id));
-        return "/";
+        return "redirect:/search";
     }
 
 
