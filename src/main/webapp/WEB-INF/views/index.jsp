@@ -24,7 +24,7 @@
     <form action="/search" method="post">
         <label>Podaj nazwę firmy:</label> <br/>
         <input type="text" name="companyName"/><br/>
-        <input type="submit" value="Sprawdź"/>
+        <button type="submit">Sprawdź</button>
     </form>
 
     <for:forEach items="${ads}" var="ad" varStatus="i">
