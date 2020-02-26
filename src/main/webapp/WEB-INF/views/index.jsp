@@ -53,7 +53,7 @@
         <form:label path="city">Miasto</form:label>
         <form:input path="city"/><br/>
         <button type="reset" id="reset" >Wyczyść</button>
-        <button type="submit">Dodaj</button>
+        <button type="submit"><b>Dodaj</b></button>
 </form:form>
 </div>
 
